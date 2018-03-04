@@ -1,1 +1,22 @@
-# pull-lab
+* Branch Lab
+* Part 1
+- Fork this repo to one of your own
+- clone the forked repo
+* Branching - part 1
+- Follow branching demo in class
+* Branching - part 2
+- Make a branch called *rename-shapes* off master
+- rename shapes.cpp etc. to rect.cpp etc.
+- Make sure everything still works
+- commit it
+- merge it back into master
+* Branching - part 3
+- Make a branch called *testing* off master
+- extract the tests to:
+  - tests_rect.cpp
+  - tests_triangle.cpp
+- Make sure you can still make tests and main
+  and they work
+- merge back into master
+- push back up to your repo
+
