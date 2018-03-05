@@ -6,10 +6,10 @@
 
 using std::string;
 
-string box(int width, int height){
+string triangle(int height){
   string s = "";
   for (int i = 0; i < height; ++i) {
-    for (int j = 0; j < width; j++) {
+    for (int j = 0; j < i; j++) {
       s=s+"*";
     }
     s=s+"\n";
@@ -17,7 +17,7 @@ string box(int width, int height){
   return s;
 }
 
-TEST_CASE("Testing Box"){
-  string s = box(4,3);
-  CHECK(s=="****\n****\n****\n");
+TEST_CASE("Testing triangle"){
+  string s = triangle(4);
+  CHECK(s=="\n*\n**\n***\n");
 }
