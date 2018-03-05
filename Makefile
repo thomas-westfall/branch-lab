@@ -6,7 +6,7 @@ main: main.o $(OBJECTS)
 
 main.o: main.cpp shapes.h
 
-shapes.o: shapes.cpp shapes.h
+rect.o: rect.cpp rect.h
 
 triangle.o: triangle.cpp triangle.h
 
